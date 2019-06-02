@@ -1,0 +1,720 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "timeZoneOffset": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "editableUntil": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "venue": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "location": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "address": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "lat": {
+              "type": [
+                "null",
+                "number"
+              ]
+            },
+            "lng": {
+              "type": [
+                "null",
+                "number"
+              ]
+            },
+            "labeledLatLngs": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "label": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "lat": {
+                    "type": [
+                      "null",
+                      "number"
+                    ]
+                  },
+                  "lng": {
+                    "type": [
+                      "null",
+                      "number"
+                    ]
+                  }
+                }
+              }
+            },
+            "postalCode": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "cc": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "city": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "state": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "country": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "formattedAddress": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            },
+            "crossStreet": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "neighborhood": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "categories": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "pluralName": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "shortName": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "icon": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "prefix": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "suffix": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  }
+                }
+              },
+              "primary": {
+                "type": [
+                  "null",
+                  "boolean"
+                ]
+              }
+            }
+          }
+        },
+        "venuePage": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "likes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "groups": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "count": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "items": {
+                "type": [
+                  "null",
+                  "array"
+                ],
+                "items": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "firstName": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "lastName": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "gender": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "relationship": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "photo": {
+                      "type": [
+                        "null",
+                        "object"
+                      ],
+                      "properties": {
+                        "prefix": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "suffix": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "summary": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "like": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "sticker": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "image": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "prefix": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "sizes": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              }
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "stickerType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "group": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "index": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            }
+          }
+        },
+        "pickerPosition": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "page": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            },
+            "index": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            }
+          }
+        },
+        "teaseText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "unlockText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "bonusText": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "points": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "bonusStatus": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "isMayor": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "photos": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "items": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "createdAt": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "source": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "name": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "url": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  }
+                }
+              },
+              "prefix": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "suffix": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "width": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "height": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "demoted": {
+                "type": [
+                  "null",
+                  "boolean"
+                ]
+              },
+              "user": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "firstName": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "lastName": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "gender": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "relationship": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "photo": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "prefix": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "suffix": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "visibility": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          }
+        },
+        "layout": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "posts": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "textCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "comments": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "source": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

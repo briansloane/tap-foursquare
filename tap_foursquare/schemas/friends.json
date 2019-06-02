@@ -1,0 +1,156 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "firstName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "lastName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "gender": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "relationship": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "photo": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "prefix": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "suffix": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "default": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        }
+      }
+    },
+    "tips": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "lists": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "groups": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "count": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "homeCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "bio": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "contact": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "email": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "twitter": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "facebook": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "superuser": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    }
+  }
+}
